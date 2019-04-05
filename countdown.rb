@@ -1,9 +1,9 @@
 #write your code here
 
-def countdown(time)
+def countdown(number)
   counter = 0
-  while time >= counter
-    puts "#{time} SECOND(S)!"
+  while number >= counter
+    puts "#{number} SECOND(S)!"
     counter -= 1 
   end
 end
